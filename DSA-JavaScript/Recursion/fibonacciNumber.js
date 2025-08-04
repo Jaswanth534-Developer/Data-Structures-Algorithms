@@ -20,14 +20,46 @@ let n = 2   // op - 1
 // let n = 4;   // op-3
 
  var fib = function(n){
-    if(n <= 1){
-        return n;
+    if(n == 0){
+        return 0;
+    } if(n == 1){
+        return 1;
     }
     return fib(n-1) + fib(n-2)
  }
 
  const output=  fib(n)
  console.log(output)
+
+
+
+ // see my question is  formula is fib(n-1) + fib(n-2) right 
+   // if n is 5 then fib(5-1) + fib(5-2) =  fib(4) + fib(3) = 3 + 2
+   // if n is 6 then fib(6-1) + fib(6-2) =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
