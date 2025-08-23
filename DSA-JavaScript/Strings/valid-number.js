@@ -23,4 +23,4 @@ function isNumber(s){
        // Regex to match valid numbers (integer, decimal, scientific notation)
     return /^[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?$/.test(s)
 }
-console.log(isNumber(original))
+console.log(isNumber(s))
